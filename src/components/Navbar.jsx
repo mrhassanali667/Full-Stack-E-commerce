@@ -3,11 +3,11 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header className='w-full bg-[#232f3f] '>
-      <div className='w-full max-lg:hidden container py-2 px-5 flex justify-between  m-auto '>
-        <div className=' flex text-[#e0e0e0]'>
+      <div className='w-full max-w-[1440px] max-lg:hidden  py-2 px-10 flex justify-between  m-auto '>
+        <div className='w-[50%] flex text-[#e0e0e0]'>
           <span className='max-lg:hidden text-[0.85em]  hover:text-orange-400'>Free Intenarional Shiping. No Minimum Purchase Required*</span>
         </div>
-        <ul className=' flex justify-end gap-6 list-none text-[#e0e0e0] [&>li]:text-[0.85em] [&>li]:cursor-pointer [&>li]:hover:text-orange-400 [&>li]:transition-colors [&>li]:duration-300 '>
+        <ul className='w-[50%] flex justify-end gap-6 list-none text-[#e0e0e0] [&>li]:text-[0.85em] [&>li]:cursor-pointer [&>li]:hover:text-orange-400 [&>li]:transition-colors [&>li]:duration-300 '>
           <li>My Acount</li>
           <li>Wish List</li>
           <li>Check out</li>
@@ -15,7 +15,7 @@ const Navbar = () => {
           <li>USD</li>
         </ul>
       </div>
-      <div className='w-full px-3 sm:px-5 py-5 flex gap-5 justify-center lg:justify-between  m-auto'>
+      <div className='w-full max-w-[1440px] px-3 sm:px-10 py-5 flex gap-5 justify-center lg:justify-between  m-auto'>
         <div className='flex max-lg:justify-between max-lg:container items-center gap-10 grow'>
           <div className='bg-gray-700 lg:hidden'>
             <svg
@@ -113,7 +113,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className='w-full max-lg:hidden flex px-10 m-auto'>
+      <div className='w-full max-w-[1440px] max-lg:hidden flex px-10 m-auto'>
         <div className='text-white w-55 flex items-center justify-between bg-[#ff7e00] font-semibold text-[1.1em] py-3 px-7'>
           <span>CATEGORIES</span>
           <svg
